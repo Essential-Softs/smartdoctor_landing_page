@@ -138,7 +138,7 @@ section {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                      url("/asset/images/hero_bg.png");
+                      url("../images/hero_bg.png");
     background-position: bottom;
     align-self: center;
     background-repeat: no-repeat;
@@ -298,7 +298,7 @@ section {
 
 /* Smart Choice CSS */
 #the_smart_choice{
-    background-image: url('/asset/images/choice_bg.png');
+    background-image: url('../images/choice_bg.png');
 }
 /* Custom Toggle Button */
 .switch {

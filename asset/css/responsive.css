@@ -1,0 +1,77 @@
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+    .package_normal{
+        height: 800px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .we_are_here_top_help_icon_text p{
+        font-size: 15px;
+    }
+    .package_normal{
+        height: 860px;
+    }
+    .package_normal h2{
+        font-size: 40px;
+    }
+    .package_normal .btn-white-bordered{
+        padding: 20px 10px;
+    }
+}
+@media only screen and (min-width: 992px){
+    /* Navbbar */
+    .navbar-nav{
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .affiliate_program_img_div{
+        height: 140px;
+    }
+    .affiliate_program_img{
+        margin: 0 auto;
+        left: 25%;
+    }
+    .affiliate_program_content{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #main_navbar{
+        background: radial-gradient(117.72% 110.12% at 1.53% -1.01%, rgba(255, 255, 255, 0.2) 37.29%, rgba(10, 209, 189, 0.2) 50.28%, rgba(255, 255, 255, 0.126) 65.11%, rgba(255, 255, 255, 0.106) 85.59%, rgba(10, 209, 189, 0.2) 97.75%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(199.58% 62.51% at 179.69% 35.74%, rgba(0, 69, 255, 0.5) 0%, rgba(10, 209, 189, 0) 84.37%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+    }
+    .package_normal{
+        height: 830px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .slider {
+        background-color: var(--blue);
+    }
+    input:checked + .slider {
+        background-color: var(--blue);
+    }
+    .navbar-brand img{
+        width: 150px;
+    }
+    .navbar_button_div .btn{
+        padding: 5px 10px!important;
+        font-size: 15px!important;
+    }
+    .package_normal{
+        height: auto;
+    }
+}
+@media only screen and (min-width: 655px) and (max-width: 1200px){
+    .hero{
+        height: 80vh;
+    }
+}
+@media only screen and (max-width: 576px){
+    
+    .text h1{
+        font-size: 53px;
+    }
+    .hero{
+        height: 80vh;
+    }
+    
+}

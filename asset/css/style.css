@@ -1,0 +1,549 @@
+/****************************************************************************
+ * Smartdoctors - For Samrt Patients
+ * Copyright 2022 | Smartdoctors | https://smartdoctors.us
+ * Designed by | EssentailSofts | https://essentialsofts.com
+ * Author: EssentailSofts
+ *
+ * This website integrates components from the following projects
+ *
+ *  Font Awesome Pro 5.14.0 by @fontawesome - https://fontawesome.com
+ *  jQuery v3.6.3 | (c) jQuery Foundation | jquery.org/license
+ *  Bootstrap v5.2.3 | Copyright 2011-2016 Twitter, Inc. | MIT License
+ ****************************************************************************/
+@import url(./variables.css);
+/* Roboto Font 
+   font-family: 'Roboto', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: DegularReg;
+    src: url("../fonts/Degular-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: DegularBold;
+    src: url("../fonts/Degular-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: DegularMed;
+    src: url("../fonts/Degular-Semibold.otf") format("opentype");
+}
+
+
+/* Custom css Classes */
+body{
+    font-family: DegularReg!important;
+}
+
+.btn-primary {
+    background-color: var(--green) !important;
+    border-color: var(--green) !important;
+}
+.btn-secondary {
+    background-color: var(--blue) !important;
+    border-color: var(--blue) !important;
+}
+.btn-white{
+    background-color: var(--white);
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+.btn-white-bordered{
+    background-color: var(--white);
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    border-color: 2px solid var(--blue);
+}
+.btn-white-bordered:hover{
+    background-color: var(--green);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    border-color: 2px solid var(--blue);
+}
+
+.text-primary{
+    color: var(--gree_text)!important;
+}
+.text-secondary{
+    color: var(--blue_text)!important;
+}
+
+.bg-primary{
+    background-color: var(--green)!important;
+}
+.bg-secondary{
+    background-color: var(--blue)!important;
+}
+
+
+
+/* Common CSS */
+section {
+    padding: 100px 0px 70px 0px;
+}
+
+.section_heading {
+    margin-bottom: 100px;
+}
+
+.section_heading h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.section_heading .heading_for_mobile {
+    font-size: 30px;
+}
+
+.section_heading h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.024em;
+}
+
+
+/* Navbbar */
+#main_navbar .btn-primary,
+#main_navbar .btn-secondary {
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+.navbar-nav {
+    margin-left: 0px;
+}
+
+#main_navbar .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#main_navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+/* Hero Banner CSS */
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                      url("/asset/images/hero_bg.png");
+    background-position: bottom;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    /* justify-content: center; */
+    min-height: 60vh;
+    height: 100vh;
+    margin-bottom: 150px;
+}
+      
+.text {
+    margin-top: 50px;
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+    
+}
+.text h1{
+    font-weight: 700;
+    font-size: 68px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.text p{
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.text a{
+    padding: 15px 40px;
+}
+.banner_mockup_div{
+    position: relative;
+    bottom: -50px;
+}
+
+
+
+/* Feature List CSS */
+.feature_list_content {
+    margin-bottom: 50px;
+    padding: 0px 50px;
+}
+
+.feature_list_content h4 {
+    font-size: 16px;
+    color: #747474;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.feature_list_content p {
+    font-size: 14px;
+    color: #7A7A7A;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+
+
+
+/* Reduace Telehealth */
+.telehealth_sub_heading {
+    color: #2E2E2E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+/* Faq Section */
+.heading_top_text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    letter-spacing: 0.0125em;
+    color: #757575;
+}
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid #EDEDED;
+
+}
+
+#faq_section .accordion-button {
+    background-color: transparent;
+    box-shadow: none;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.0125em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#faq_section .accordion-body{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.0125em;
+    color: #757575;
+}
+
+#faq_section .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+}
+
+#faq_section .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+#faq_section .accordion-button:not(.collapsed) {
+    color: var(--blue_text);
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.0125em;
+}
+
+/* Affiliate Program Banner CSS */
+.affiliate_program_img{
+    width: auto;
+    height: 250px;
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+}
+.affiliate_program_content h3{
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 0.024em;
+}
+.affiliate_program_content p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* We are here to help CSS */
+.we_are_here_top_help_icon_div{
+    background-color: #000;
+    border-radius: 60px;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+.we_are_here_top_help_icon_div i{
+    font-size: 20px;
+}
+.we_are_here_top_help_icon_text p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Smart Choice CSS */
+#the_smart_choice{
+    background-image: url('/asset/images/choice_bg.png');
+}
+/* Custom Toggle Button */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--white);
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--green);
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: var(--white);
+  }
+  
+  input:focus + .slider {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+.save_upto_img{
+    width: 150px;
+    position: absolute;
+    bottom: 5px;
+    left: -150px;
+}
+.package_normal{
+    background: #FFFFFF;
+    border: 1px solid #00CCCC;
+    box-shadow: 0px 4px 5px 1px rgba(193, 193, 193, 0.35);
+    border-radius: 10px;
+    padding: 30px 50px;
+    height: 750px;
+    margin-top: 40px;
+}
+.package_normal h3{
+    font-weight: 700;
+    font-size: 36px;
+    color: #505050;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    margin-bottom: 30px;
+}
+.package_normal .first_sub_heading{
+    font-weight: 600;
+    font-size: 20px;
+    color: #747474;
+}
+.package_normal .normal_paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: #747474;
+}
+.package_normal .second_sub_heading{
+    font-weight: 600;
+    font-size: 24px;
+    color: #505050;
+}
+.package_normal h2{
+    font-weight: 700;
+    font-size: 64px;
+}
+.package_normal h2 span{
+    font-weight: 400;
+    font-size: 32px;
+}
+.package_normal .btn-white-bordered{
+    border: 3px solid var(--blue);
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.package_normal .download_button{
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #00CCCC;
+    text-underline-offset: 5px;
+}
+.package_normal .download_button i{
+    font-weight: normal;
+    text-decoration-line: none;
+    margin-right: 5px;
+}
+.package_normal ul{
+    padding-left: 20px;
+}
+.package_normal ul li{
+    margin-bottom: 10px;
+}
+
+.recomanded_offer{
+    background-color: var(--blue);
+    color: var(--white);
+}
+.recomanded_offer .btn-white-bordered{
+    background-color: var(--green);
+    color: var(--white);
+}
+.most_popular_div{
+    background-color: var(--green);
+    box-shadow: 0px 4px 5px 1px rgba(193, 193, 193, 0.35);
+    border-radius: 10px 10px 0px 0px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 20px;
+}
+.most_popular_div p{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+
+}
+.icon_rotate{
+    -moz-transition: 0.4s all ease;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+}
+.icon_rotate.down{
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+#feature_list{
+    padding: 15px 40px;
+    border-width: 2px;
+}
+#feature_list:hover{
+    border-color: var(--blue);
+}
+#feature_list:hover .feature_list_icon_border i{
+    color: var(--white);
+}
+.feature_list_icon_border{
+    border: 1px solid var(--blue);
+    border-radius: 3px;
+    padding: 0px 3px;
+    margin-right: 10px;
+}
+.feature_list_icon_border i{
+    color: var(--green);
+}
+
+/* Feature List CSS */
+/* .accordion-button:not(.collapsed)::after{
+    background-image: none!important;
+} */
+#feature_list_collapse .accordion-item{
+    margin-bottom: 20px;
+}
+#feature_list_collapse .accordion-header .accordion-button::after {
+    background-image: none!important;
+    width: 0;
+    height: 0;
+}
+#feature_list_collapse .accordion-header .accordion-button:not(.collapsed)::after {
+    background-image: none!important;
+    width: 0;
+    height: 0;
+}
+#feature_list_collapse .accordion-header{
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    line-height: unset;
+}
+#feature_list_collapse .accordion-header .accordion-button{
+    border-radius: 10px;
+}
+#feature_list_collapse .accordion-header .accordion-button:focus{
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+#feature_list_collapse .accordion-header .accordion-button:not(.collapsed){
+    background-color: transparent;
+    color: inherit;
+}
+.feature_list_accordian_heading_text{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 12px 50px 12px 20px;
+    width: 30%;
+    border-radius: 8px 0px 0px 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.feature_list_accordian_heading_faetures{
+    padding: 6px 20px;
+    border-radius: 50px;
+    border: 2px solid var(--blue);
+    margin: 6px 8px 6px 0px;
+    font-weight: bold;
+}
+.table_list_icon_span{
+    font-size: 5px;
+}
+#feature_list_collapse .table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: #F6F5FF;
+    color: #747474;
+}
+#feature_list_collapse table{
+    border-radius: 0px 0px 10px 10px;
+    color: #747474;
+}

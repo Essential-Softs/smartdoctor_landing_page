@@ -10,6 +10,31 @@
 //  *  jQuery v3.6.3 | (c) jQuery Foundation | jquery.org/license
 //  *  Bootstrap v5.2.3 | Copyright 2011-2016 Twitter, Inc. | MIT License
 //  ****************************************************************************
-$('#feature_list').click(function() {
+$('#feature_list').click(function () {
     $('.icon_rotate').toggleClass("down");
 });
+
+$(document).ready(function () {
+    $('.accordion-button').on('click', function () {
+        $('.before_div').addClass('d-none');
+        $('.after_div').removeClass('d-none');
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

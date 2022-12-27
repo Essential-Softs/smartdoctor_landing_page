@@ -35,9 +35,9 @@
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    #main_navbar{
-        background: radial-gradient(117.72% 110.12% at 1.53% -1.01%, rgba(255, 255, 255, 0.2) 37.29%, rgba(10, 209, 189, 0.2) 50.28%, rgba(255, 255, 255, 0.126) 65.11%, rgba(255, 255, 255, 0.106) 85.59%, rgba(10, 209, 189, 0.2) 97.75%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(199.58% 62.51% at 179.69% 35.74%, rgba(0, 69, 255, 0.5) 0%, rgba(10, 209, 189, 0) 84.37%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
-    }
+    /* #main_navbar{
+        background: radial-gradient(117.72% 110.12% at 1.53% -1.01%, rgba(255, 255, 255, 0.2) 37.29%, rgba(10, 209, 189, 0.2) 50.28%, rgba(255, 255, 255, 0.126) 65.11%, rgba(255, 255, 255, 0.106) 85.59%, rgba(10, 209, 189, 0.2) 97.75%), radial-gradient(199.58% 62.51% at 179.69% 35.74%, rgba(0, 69, 255, 0.5) 0%, rgba(10, 209, 189, 0) 84.37%), #FFFFFF;
+    } */
     .package_normal{
         height: 830px;
     }
@@ -67,11 +67,118 @@
 }
 @media only screen and (max-width: 576px){
     
+    .gaint_mobile_bg{
+        background: radial-gradient(117.72% 110.12% at 1.53% -1.01%, rgba(255, 255, 255, 0.2) 37.29%, rgba(10, 209, 189, 0.2) 50.28%, rgba(255, 255, 255, 0.126) 65.11%, rgba(255, 255, 255, 0.106) 85.59%, rgba(10, 209, 189, 0.2) 97.75%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(199.58% 62.51% at 179.69% 35.74%, rgba(0, 69, 255, 0.5) 0%, rgba(10, 209, 189, 0) 84.37%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+    }
+    #main_navbar{
+        background-color: transparent!important;
+    }
+    .text{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        margin-top: 100px;
+    }
     .text h1{
-        font-size: 53px;
+        font-size: 36px;
+        width: 100%;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .text p{
+        font-size: 20px;
+        line-height: 30px;
     }
     .hero{
-        height: 80vh;
+        height: 75vh;
+        margin-bottom: 50px;
+    }
+    .banner_mockup_div{
+        bottom: -90px;
+    }
+
+    #the_smart_choice .section_heading{
+        margin-bottom: 20px;
+    }
+    .package_normal{
+        margin-top: 0px;
+    }
+
+    #we_are_here_to_help{
+        border-radius: 20px;
+        background-color: var(--white);
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #we_are_here_to_help .affiliate_program_content{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    #we_are_here_to_help .affiliate_program_content h3{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.024em;
+        color: #FFFFFF;
+    }
+    #we_are_here_to_help .affiliate_program_content p{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+    }
+    #we_are_here_to_help .btn-white-bordered{
+        padding: 10px 10px;
+    }
+
+    #reduce_telehealth a{
+        width: 100%;
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .telehealth_sub_heading{
+        margin-bottom: 0px!important;
+    }
+
+    #faq_section .section_heading{
+        margin-bottom: 0px;
+    }
+
+    #affiliate_program{
+        border-radius: 20px;
+        background-color: var(--white);
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #affiliate_program .affiliate_program_content{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #affiliate_program .affiliate_program_content h3{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.024em;
+        color: #FFFFFF;
+    }
+    #affiliate_program .affiliate_program_content p{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #fff;
+    }
+    #affiliate_program .btn-white{
+        padding: 10px 30px;
+    }
+    #affiliate_program .affiliate_program_img{
+        left: 2%;
+        margin-bottom: 20px;
     }
     .affiliate_program_img{
         left: 10%;

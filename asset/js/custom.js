@@ -13,6 +13,9 @@
 $('#feature_list').click(function () {
     $('.icon_rotate').toggleClass("down");
 });
+$('#mobile_feature_collapse_btn').click(function () {
+    $('.icon_rotate_mobile').toggleClass("down_mobile");
+});
 
 $(document).ready(function () {
     $('.accordion-button').on('click', function () {
@@ -20,9 +23,6 @@ $(document).ready(function () {
         $('.after_div').removeClass('d-none');
     });
 });
-
-
-
 
 
 

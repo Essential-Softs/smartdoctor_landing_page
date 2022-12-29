@@ -1697,7 +1697,7 @@
                                             <div class="accordion-item" id="">
                                                 <div class="accordion-header bg-transparent">
 
-                                                    <div class="d-flex justify-content-between mobile_before_div"
+                                                    <div class="d-flex justify-content-between mobile_before_div normal_mobile"
                                                         id="section_8_normal">
                                                         <div class="d-flex">
                                                             <div class="">
@@ -1718,7 +1718,7 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="mobile_after_div d-none" id="section_8_plan">
+                                                    <div class="mobile_after_div d-none plan_mobile" id="section_8_plan">
                                                         <div
                                                             class="d-flex justify-content-between mobile_after_div_top">
                                                             <div
@@ -2202,7 +2202,7 @@
 
                                             <div class="accordion-item" id="">
                                                 <div class="accordion-header bg-transparent">
-                                                    <div class="d-flex justify-content-between mobile_before_div"
+                                                    <div class="d-flex justify-content-between mobile_before_div normal_mobile"
                                                         id="section_9_normal">
                                                         <div class="d-flex">
                                                             <div class="">
@@ -2222,7 +2222,7 @@
                                                             <b>14</b>
                                                         </div>
                                                     </div>
-                                                    <div class="mobile_after_div d-none" id="section_9_plan">
+                                                    <div class="mobile_after_div d-none plan_mobile" id="section_9_plan">
                                                         <div
                                                             class="d-flex justify-content-between mobile_after_div_top">
                                                             <div
@@ -2744,7 +2744,7 @@
 
                                             <div class="accordion-item" id="">
                                                 <div class="accordion-header bg-transparent" id="mobile_feature_three">
-                                                    <div class="d-flex justify-content-between mobile_before_div"
+                                                    <div class="d-flex justify-content-between mobile_before_div normal_mobile"
                                                         id="section_10_normal">
                                                         <div class="d-flex">
                                                             <div class="">
@@ -2764,7 +2764,7 @@
                                                             <b>06</b>
                                                         </div>
                                                     </div>
-                                                    <div class="mobile_after_div  d-none" id="section_10_plan">
+                                                    <div class="mobile_after_div  d-none plan_mobile" id="section_10_plan">
                                                         <div
                                                             class="d-flex justify-content-between mobile_after_div_top">
                                                             <div
@@ -3039,7 +3039,7 @@
 
                                             <div class="accordion-item" id="">
                                                 <div class="accordion-header bg-transparent" id="mobile_feature_four">
-                                                    <div class="d-flex justify-content-between mobile_before_div"
+                                                    <div class="d-flex justify-content-between mobile_before_div normal_mobile"
                                                         id="section_11_normal">
                                                         <div class="d-flex">
                                                             <div class="">
@@ -3059,7 +3059,7 @@
                                                             <b>06</b>
                                                         </div>
                                                     </div>
-                                                    <div class="mobile_after_div  d-none" id="section_11_plan">
+                                                    <div class="mobile_after_div  d-none plan_mobile" id="section_11_plan">
                                                         <div
                                                             class="d-flex justify-content-between mobile_after_div_top">
                                                             <div
@@ -3331,7 +3331,7 @@
 
                                             <div class="accordion-item" id="">
                                                 <div class="accordion-header bg-transparent" id="mobile_feature_five">
-                                                    <div class="d-flex justify-content-between mobile_before_div"
+                                                    <div class="d-flex justify-content-between mobile_before_div normal_mobile"
                                                         id="section_12_normal">
                                                         <div class="d-flex">
                                                             <div class="">
@@ -3351,7 +3351,7 @@
                                                             <b>04</b>
                                                         </div>
                                                     </div>
-                                                    <div class="mobile_after_div d-none" id="section_12_plan">
+                                                    <div class="mobile_after_div d-none plan_mobile" id="section_12_plan">
                                                         <div
                                                             class="d-flex justify-content-between mobile_after_div_top">
                                                             <div
@@ -3566,7 +3566,7 @@
 
                                             <div class="accordion-item" id="">
                                                 <div class="accordion-header bg-transparent" id="mobile_feature_six">
-                                                    <div class="d-flex justify-content-between mobile_before_div"
+                                                    <div class="d-flex justify-content-between mobile_before_div normal_mobile"
                                                         id="section_13_normal">
                                                         <div class="d-flex">
                                                             <div class="">
@@ -3586,7 +3586,7 @@
                                                             <b>09</b>
                                                         </div>
                                                     </div>
-                                                    <div class="mobile_after_div d-none" id="section_13_plan">
+                                                    <div class="mobile_after_div d-none plan_mobile" id="section_13_plan">
                                                         <div
                                                             class="d-flex justify-content-between mobile_after_div_top">
                                                             <div
@@ -3951,7 +3951,7 @@
 
                                             <div class="accordion-item" id="">
                                                 <div class="accordion-header bg-transparent" id="mobile_feature_seven">
-                                                    <div class="d-flex justify-content-between mobile_before_div"
+                                                    <div class="d-flex justify-content-between mobile_before_div normal_mobile"
                                                         id="section_14_normal">
                                                         <div class="d-flex">
                                                             <div class="">
@@ -3971,7 +3971,7 @@
                                                             <b>05</b>
                                                         </div>
                                                     </div>
-                                                    <div class="mobile_after_div d-none" id="section_14_plan">
+                                                    <div class="mobile_after_div d-none plan_mobile" id="section_14_plan">
                                                         <div
                                                             class="d-flex justify-content-between mobile_after_div_top">
                                                             <div
@@ -4798,10 +4798,14 @@
         $(" #section_8").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_8_plan').addClass('d-none');
                 $('#section_8_normal').removeClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_8_plan').removeClass('d-none');
                 $('#section_8_normal').addClass('d-none');
 
@@ -4810,10 +4814,14 @@
         $(" #section_8_close").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_8_plan').removeClass('d-none');
                 $('#section_8_normal').addClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_8_plan').addClass('d-none');
                 $('#section_8_normal').removeClass('d-none');
 
@@ -4823,10 +4831,14 @@
         $(" #section_9").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_9_plan').addClass('d-none');
                 $('#section_9_normal').removeClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_9_plan').removeClass('d-none');
                 $('#section_9_normal').addClass('d-none');
 
@@ -4835,10 +4847,14 @@
         $(" #section_9_close").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_9_plan').removeClass('d-none');
                 $('#section_9_normal').addClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_9_plan').addClass('d-none');
                 $('#section_9_normal').removeClass('d-none');
 
@@ -4849,10 +4865,14 @@
         $(" #section_10").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_10_plan').addClass('d-none');
                 $('#section_10_normal').removeClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_10_plan').removeClass('d-none');
                 $('#section_10_normal').addClass('d-none');
 
@@ -4861,10 +4881,14 @@
         $(" #section_10_close").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_10_plan').removeClass('d-none');
                 $('#section_10_normal').addClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_10_plan').addClass('d-none');
                 $('#section_10_normal').removeClass('d-none');
 
@@ -4875,10 +4899,14 @@
         $(" #section_11").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_11_plan').addClass('d-none');
                 $('#section_11_normal').removeClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_11_plan').removeClass('d-none');
                 $('#section_11_normal').addClass('d-none');
 
@@ -4887,10 +4915,14 @@
         $(" #section_11_close").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_11_plan').removeClass('d-none');
                 $('#section_11_normal').addClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_11_plan').addClass('d-none');
                 $('#section_11_normal').removeClass('d-none');
 
@@ -4900,10 +4932,14 @@
         $(" #section_12").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_12_plan').addClass('d-none');
                 $('#section_12_normal').removeClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_12_plan').removeClass('d-none');
                 $('#section_12_normal').addClass('d-none');
 
@@ -4912,10 +4948,14 @@
         $(" #section_12_close").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_12_plan').removeClass('d-none');
                 $('#section_12_normal').addClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_12_plan').addClass('d-none');
                 $('#section_12_normal').removeClass('d-none');
 
@@ -4924,10 +4964,14 @@
         $(" #section_13").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_13_plan').addClass('d-none');
                 $('#section_13_normal').removeClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_13_plan').removeClass('d-none');
                 $('#section_13_normal').addClass('d-none');
 
@@ -4936,10 +4980,14 @@
         $(" #section_13_close").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_13_plan').removeClass('d-none');
                 $('#section_13_normal').addClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_13_plan').addClass('d-none');
                 $('#section_13_normal').removeClass('d-none');
 
@@ -4949,10 +4997,14 @@
         $(" #section_14").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_14_plan').addClass('d-none');
                 $('#section_14_normal').removeClass('d-none');
             }
             else {
+                $('.plan_mobile').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_14_plan').removeClass('d-none');
                 $('#section_14_normal').addClass('d-none');
 
@@ -4961,10 +5013,14 @@
         $(" #section_14_close").on('click', function () {
 
             if ($(this).find('.accordion-collapse').hasClass('collapsed')) {
+                $('.plan').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_14_plan').removeClass('d-none');
                 $('#section_14_normal').addClass('d-none');
             }
             else {
+                $('.plan').addClass('d-none');
+                $('.normal_mobile').removeClass('d-none');
                 $('#section_14_plan').addClass('d-none');
                 $('#section_14_normal').removeClass('d-none');
 

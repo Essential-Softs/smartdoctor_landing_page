@@ -654,6 +654,59 @@ section {
     display: flex;
 }
 
+#section_1_plan{
+    display: flex;
+
+}
+#section_1_normal{
+    display: flex;
+}
+
+#section_2_plan{
+    display: flex;
+
+}
+#section_2_normal{
+    display: flex;
+}
+
+#section_3_plan{
+    display: flex;
+
+}
+#section_3_normal{
+    display: flex;
+}
+
+#section_4_plan{
+    display: flex;
+
+}
+#section_4_normal{
+    display: flex;
+}
+
+#section_5_plan{
+    display: flex;
+
+}
+#section_5_normal{
+    display: flex;
+}
+#section_6_plan{
+    display: flex;
+
+}
+#section_6_normal{
+    display: flex;
+}
+#section_7_plan{
+    display: flex;
+
+}
+#section_7_normal{
+    display: flex;
+}
 /* Complete Feature list for mobile */
 #mobile_feature_collapse_btn{
     padding: 15px 40px;

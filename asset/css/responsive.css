@@ -185,3 +185,34 @@
     }
     
 }
+
+@media only screen and (min-width: 360px) and (max-width: 390px){
+    .hero{
+        height: 75vh;
+    }
+    .text{
+        margin-top: 50px;
+    }
+    .text h1{
+        font-size: 29px;
+    }
+    .text p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .text a{
+        font-size: 14px;
+    }
+    .package_normal h2 {
+        font-size: 50px;
+    }
+    .banner_mockup_div {
+        bottom: -50px;
+    }
+    .affiliate_program_img {
+        left: 7%;
+    }
+    #affiliate_program .affiliate_program_img {
+        left: -1%;
+    }
+}

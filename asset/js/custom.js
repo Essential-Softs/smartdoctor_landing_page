@@ -90,26 +90,26 @@ var owl_2 = $('#mobile_screen_feature_carousel_two').owlCarousel({
 // var owl = $('.owl-carousel');
 // owl.owlCarousel();
 // Go to the next item
-$('.customNextBtn').click(function() {
+$('.customNextBtnOwl2').click(function() {
     owl_2.trigger('next.owl.carousel');
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature2_name').text(name);
+   $('#feature_2_link').text(video)
+   $('#feature_2_link').attr('href',link)
 })
 // Go to the previous item
-$('.customPrevBtn').click(function() {
+$('.customPrevBtnOwl2').click(function() {
     // With optional speed parameter
     // Parameters has to be in square bracket '[]'
     owl_2.trigger('prev.owl.carousel', [300]);
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature2_name').text(name);
+   $('#feature_2_link').text(video)
+   $('#feature_2_link').attr('href',link)
 })
 
 
@@ -138,26 +138,26 @@ var owl_3 = $('#mobile_screen_feature_carousel_three').owlCarousel({
 // var owl = $('.owl-carousel');
 // owl.owlCarousel();
 // Go to the next item
-$('.customNextBtn').click(function() {
+$('.customNextBtnOwl3').click(function() {
     owl_3.trigger('next.owl.carousel');
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature3_name').text(name);
+   $('#feature_3_link').text(video)
+   $('#feature_3_link').attr('href',link)
 })
 // Go to the previous item
-$('.customPrevBtn').click(function() {
+$('.customPrevBtnOwl3').click(function() {
     // With optional speed parameter
     // Parameters has to be in square bracket '[]'
     owl_3.trigger('prev.owl.carousel', [300]);
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature3_name').text(name);
+   $('#feature_3_link').text(video)
+   $('#feature_3_link').attr('href',link)
 })
 
 
@@ -186,26 +186,26 @@ var owl_4 = $('#mobile_screen_feature_carousel_four').owlCarousel({
 // var owl = $('.owl-carousel');
 // owl.owlCarousel();
 // Go to the next item
-$('.customNextBtn').click(function() {
+$('.customNextBtnOwl4').click(function() {
     owl_4.trigger('next.owl.carousel');
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature4_name').text(name);
+   $('#feature_4_link').text(video)
+   $('#feature_4_link').attr('href',link)
 })
 // Go to the previous item
-$('.customPrevBtn').click(function() {
+$('.customPrevBtnOwl4').click(function() {
     // With optional speed parameter
     // Parameters has to be in square bracket '[]'
     owl_4.trigger('prev.owl.carousel', [300]);
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature4_name').text(name);
+   $('#feature_4_link').text(video)
+   $('#feature_4_link').attr('href',link)
 })
 
 
@@ -236,26 +236,26 @@ var owl_5 = $('#mobile_screen_feature_carousel_five').owlCarousel({
 // var owl = $('.owl-carousel');
 // owl.owlCarousel();
 // Go to the next item
-$('.customNextBtn').click(function() {
+$('.customNextBtnOwl5').click(function() {
     owl_5.trigger('next.owl.carousel');
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature5_name').text(name);
+   $('#feature_5_link').text(video)
+   $('#feature_5_link').attr('href',link)
 })
 // Go to the previous item
-$('.customPrevBtn').click(function() {
+$('.customPrevBtnOwl5').click(function() {
     // With optional speed parameter
     // Parameters has to be in square bracket '[]'
     owl_5.trigger('prev.owl.carousel', [300]);
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature5_name').text(name);
+   $('#feature_5_link').text(video)
+   $('#feature_5_link').attr('href',link)
 })
 
 
@@ -284,26 +284,26 @@ var owl_6 = $('#mobile_screen_feature_carousel_six').owlCarousel({
 // var owl = $('.owl-carousel');
 // owl.owlCarousel();
 // Go to the next item
-$('.customNextBtn').click(function() {
+$('.customNextBtnOwl6').click(function() {
     owl_6.trigger('next.owl.carousel');
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature6_name').text(name);
+   $('#feature_6_link').text(video)
+   $('#feature_6_link').attr('href',link)
 })
 // Go to the previous item
-$('.customPrevBtn').click(function() {
+$('.customPrevBtnOwl6').click(function() {
     // With optional speed parameter
     // Parameters has to be in square bracket '[]'
     owl_6.trigger('prev.owl.carousel', [300]);
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature6_name').text(name);
+   $('#feature_6_link').text(video)
+   $('#feature_6_link').attr('href',link)
 })
 
 
@@ -332,24 +332,24 @@ var owl_7 = $('#mobile_screen_feature_carousel_seven').owlCarousel({
 // var owl = $('.owl-carousel');
 // owl.owlCarousel();
 // Go to the next item
-$('.customNextBtn').click(function() {
+$('.customNextBtnOwl7').click(function() {
     owl_7.trigger('next.owl.carousel');
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature7_name').text(name);
+   $('#feature_7_link').text(video)
+   $('#feature_7_link').attr('href',link)
 })
 // Go to the previous item
-$('.customPrevBtn').click(function() {
+$('.customPrevBtnOwl7').click(function() {
     // With optional speed parameter
     // Parameters has to be in square bracket '[]'
     owl_7.trigger('prev.owl.carousel', [300]);
     var name = $('.owl-stage > .active > .item > span').attr('meta-name');
     var video = $('.owl-stage > .active > .item > span').attr('meta-video');
     var link = $('.owl-stage > .active > .item > span').attr('meta-url');
-   $('#feature1_name').text(name);
-   $('#feature_1_link').text(video)
-   $('#feature_1_link').attr('href',link)
+   $('#feature7_name').text(name);
+   $('#feature_7_link').text(video)
+   $('#feature_7_link').attr('href',link)
 })

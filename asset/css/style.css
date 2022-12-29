@@ -274,6 +274,10 @@ section {
 
 }
 
+#faq_section .section_heading{
+    margin-bottom: 30px;
+}
+
 #faq_section .accordion-button {
     background-color: transparent;
     box-shadow: none;

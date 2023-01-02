@@ -65,6 +65,19 @@
         height: 80vh;
     }
 }
+@media only screen and (min-width: 576px) and (max-width: 1200px){
+    .text h1 {
+        font-size: 36px;
+        width: 100%;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+}
 @media only screen and (max-width: 576px){
     
     .gaint_mobile_bg{
@@ -184,6 +197,23 @@
         left: 10%;
     }
     
+}
+/* @media only screen and (min-width: 440px) and (max-width: 576px){
+    .hero{
+        height: 85vh;
+    }
+    .banner_mockup_div{
+        bottom: -10px;
+    }
+} */
+
+@media only screen and (min-width: 390px) and (max-width: 576px){
+    .hero{
+        height: 85vh;
+    }
+    .banner_mockup_div{
+        bottom: -10px;
+    }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 390px){

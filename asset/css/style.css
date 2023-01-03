@@ -138,15 +138,51 @@ section {
     padding: 10px 40px;
     font-size: 20px;
 }
+#main_navbar .btn-login{
+    border: 1px solid #29337A;
+    color: #29337A;
+    background-color: transparent;
+    padding: 0px 40px!important;
+    line-height: 50px!important;
+    border-radius: 0px;
+}
+#main_navbar .btn-login:hover{
+    background-color: #29337A;
+    color: #fff;
+}
+
+#main_navbar .btn-demo{
+    border: 1px solid #ea1e65;
+    color: #fff!important;
+    background-color: #ea1e65;
+    padding: 0px 40px!important;
+    line-height: 50px!important;
+    border-radius: 0px;
+}
+
+#main_navbar .navbar-toggler{
+    color: #000066;
+    font-weight: bold;
+}
 
 .navbar-nav {
     margin-left: 0px;
 }
 
+#main_navbar .nav-item{
+    margin-left: 30px;
+}
+
 #main_navbar .nav-link {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    /* font-size: 20px;
+    font-weight: bold; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 60px;
+    color: #000000;
+    outline: none;
+    padding: 0 15px;
 }
 
 #main_navbar .navbar-toggler:focus{

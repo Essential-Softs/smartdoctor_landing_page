@@ -3,6 +3,19 @@
         height: 800px;
     }
 }
+@media only screen and (min-width: 992px) and (max-width: 1399px){
+    #main_navbar .nav-item{
+        margin-left: 0px;
+    }
+    
+    #main_navbar .nav-link {
+        line-height: 60px;
+        padding: 0 5px;
+    }
+    #main_navbar .btn-login{
+        margin-right: 5px;
+    }
+}
 @media only screen and (min-width: 992px) and (max-width: 1200px){
     .we_are_here_top_help_icon_text p{
         font-size: 15px;

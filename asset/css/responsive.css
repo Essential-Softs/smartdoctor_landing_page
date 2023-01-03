@@ -17,6 +17,11 @@
         padding: 20px 10px;
     }
 }
+@media only screen and (max-width: 1499px){
+    .footer_link_list_div ul li a{
+        line-height: 38px;
+    }
+}
 @media only screen and (min-width: 992px){
     /* Navbbar */
     .navbar-nav{
@@ -41,6 +46,8 @@
     .package_normal{
         height: 830px;
     }
+
+
 }
 @media only screen and (max-width: 767px){
     .slider {
@@ -58,6 +65,9 @@
     }
     .package_normal{
         height: auto;
+    }
+    .footer_logo_div img{
+        padding-top: 10px;
     }
 }
 @media only screen and (min-width: 655px) and (max-width: 1200px){

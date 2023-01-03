@@ -881,127 +881,10 @@ table tr td{
 
 
 
-
-
-
-#footer .footer-logo .logo {
-    width: 215px;
-    padding: 35px 0;
-}
-
-#footer .footer-logo .logo img {
-    width: 100%;
-}
-
-#footer .link-box h5 {
-    font-family: MarkWebPro-MediumW01-Rg;
-    line-height: 25px;
-    color: #000000;
-}
-
-#footer .link-box ul {
-    margin-top: 15px;
-}
-
-#footer .link-box ul li a {
-    font-family: MarkWebPro-MediumW01-Rg;
-    font-size: 14px;
-    line-height: 48px;
-    color: #909090;
-}
-
-#footer .link-box ul li a:hover {
-    color: #00cfb5;
-    margin-left: 5px;
-}
-
-#footer .social-box ul li {
-    display: inline-block;
-}
-
-#footer .social-box .row {
-    margin: 0;
-}
-
-#footer .social-box .row .col {
-    background: #00cfb5;
-}
-
-#footer .social-box .row .col ul {
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-}
-
-#footer .social-box ul li a {
-    color: #000000;
-    font-size: 15px;
-    background: #00cfb5;
-    height: 60px;
-    line-height: 60px;
-    display: inline-block;
-    width: 76px;
-    outline: none;
-    text-align: center;
-}
-
-#footer .social-box ul li a:hover {
-    background: #000000;
-    color: #00cfb5;
-}
-
-.page-footer .footer-copyright {
-    padding: 35px 0;
-}
-
-.page-footer .footer-copyright .row {
-    margin: 0;
-}
-
-.page-footer .footer-copyright .copyright-box p {
-    font-family: MarkWebPro-MediumW01-Rg;
-    font-size: 14px;
-    line-height: 48px;
-    color: #000000;
-}
-
-.page-footer .footer-copyright ul li {
-    display: inline-block;
-}
-
-.page-footer .footer-copyright ul li a {
-    font-family: MarkWebPro-MediumW01-Rg;
-    font-size: 14px;
-    line-height: 22px;
-    color: rgba(0, 0, 0, 0.56);
-    margin-right: 35px;
-}
-
-.page-footer .footer-copyright ul li a:hover {
-    color: #00cfb5;
-}
-
-#index-banner .banner-caption h6 {
-    display: none
-}
-
-
-#footer {
-    background: #fbfbfc;
-    padding-top: 50px;
-}
-
-#footer .link-box ul {
-    margin-top: 10px;
-}
-
-#footer .link-box ul li a {
-    line-height: 38px;
-}
-
-/*.home-page */ #footer {
-    padding: 70px 0 0;
-    background: url(../images/gradiant-Background-2.png);
+/* Footer */
+#footer{
+    background: url('https://smartdoctors.us/front/images/gradiant-Background-2.png');
+    padding: 50px 0 0;
     background-color: rgba(0, 0, 0, 0);
     background-position-x: 0%;
     background-position-y: 0%;
@@ -1010,523 +893,98 @@ table tr td{
     background-position: center;
     background-size: cover;
 }
-
-.page-footer .footer-heading h5 {
-    font-family: MarkWebPro-MediumW01-Rg;
-    font-size: 14px;
-    line-height: 18px;
-    color: #464545;
+.footer_link_list_div ul{
+    list-style-type: none;
+    padding-left: 0;
 }
-
-.page-footer .footer-heading {
-    margin-bottom: 70px;
-}
-
-#footer .footer-logo .logo {
-    width: 215px;
-    padding: 35px 0;
-}
-
-#footer .footer-logo .logo img {
-    width: 100%;
-}
-
-#footer .link-box h5 {
-    font-family: MarkWebPro-MediumW01-Rg;
-    line-height: 25px;
-    color: #000000;
-}
-
-#footer .link-box ul {
-    margin-top: 15px;
-}
-
-#footer .link-box ul li a {
-    font-family: MarkWebPro-MediumW01-Rg;
+.footer_link_list_div ul li a{
+    font-family: DegularReg;
     font-size: 14px;
     line-height: 48px;
     color: #909090;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
-
-#footer .link-box ul li a:hover {
+.footer_link_list_div ul li a:hover{
     color: #00cfb5;
     margin-left: 5px;
 }
-
-#footer .social-box ul li {
-    display: inline-block;
-}
-
-#footer .social-box .row {
-    margin: 0;
-}
-
-#footer .social-box .row .col {
-    background: #00cfb5;
-}
-
-#footer .social-box .row .col ul {
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-}
-
-#footer .social-box ul li a {
+.footer_links h5{
+    font-family: DegularBold;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
     color: #000000;
-    font-size: 15px;
-    background: #00cfb5;
-    height: 60px;
-    line-height: 60px;
-    display: inline-block;
-    width: 76px;
-    outline: none;
-    text-align: center;
 }
-
-#footer .social-box ul li a:hover {
-    background: #000000;
-    color: #00cfb5;
+.footer_top_text_div{
+    margin-bottom: 40px;
 }
-
-.page-footer .footer-copyright {
+.footer_top_text_div p{
+    font-family: DegularBold;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.footer_logo_div img{
+    width: 215px;
     padding: 35px 0;
 }
+.footer_social_div_border{
 
-.page-footer .footer-copyright .row {
-    margin: 0;
-    align-items: center;
-    display: flex;
-}
-
-.page-footer .footer-copyright .copyright-box p {
-    font-family: MarkWebPro-MediumW01-Rg;
-    font-size: 14px;
-    line-height: 48px;
-    color: #000000;
-}
-
-.page-footer .footer-copyright ul li {
-    display: inline-block;
-}
-
-.page-footer .footer-copyright ul li,
-.page-footer .footer-copyright ul li a {
-    font-family: MarkWebPro-MediumW01-Rg;
-    font-size: 14px;
-    line-height: 22px;
-    color: rgba(0, 0, 0, 0.56);
-    margin-right: 35px;
-}
-
-.page-footer .footer-copyright ul li a:hover {
-    color: #00cfb5;
-}
-
-.page-footer .footer-copyright ul li a {
-    display: contents;
-}
-
-#footer .link-box {
-    /*width: 20%;*/
-}
-
-#footer .social-box .row .col {
-    background: transparent;
-}
-
-#footer .social-box {
     border-bottom: 1px solid #EDEDED;
+
+    margin-bottom: 55px;
+}
+.footer_social_div{
+    /* border-bottom: 1px solid #EDEDED; */
     padding-bottom: 45px;
-    margin-bottom: 75px;
+    margin-left: 30px;
 }
-
-#footer .social-box ul li a {
+.footer_social_div a{
     color: #000000;
-    font-size: 15px;
-    background: transparent;
-    height: 35px;
-    line-height: 35px;
-    display: inline-block;
-    width: auto;
-    outline: none;
-    text-align: center;
-}
-
-#footer .social-box ul li a:hover {
-    background: transparent;
-    color: #00cfb5;
-}
-
-#footer .social-box ul li a i {
+    text-decoration: none;
     font-size: 28px;
+    margin-right: 60px;
 }
-.policy-page #footer {
-    margin-top: 185px;
+.footer_copyright_outer_div{
+    margin-top: 50px;
+    background-color: #fbfbfc;
+    border-top: 1px solid #EDEDED;
+    padding: 30px 0px;
 }
-@media screen and (max-width: 1499px) {
-    #footer .social-box {
-        margin-bottom: 55px;
-    }
-
-    .page-footer .footer-copyright {
-        margin-top: 50px;
-    }
-
-    .page-footer .footer-heading {
-        margin-bottom: 40px;
-    }
-
-    .page-footer .footer-copyright {
-        padding: 15px 0;
-    }
-
-}
-@media (max-width: 1199px) {
-    .page-footer .footer-copyright ul li a {
-        margin-right: 20px;
-    }
-
-    #footer {
-        padding-top: 40px;
-    }
-
-    #footer .social-box {
-        margin-bottom: 45px;
-        padding-bottom: 30px;
-    }
+.copyright_text{
+    font-family: DegularBold;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 0px;
 }
 
-@media (max-width: 991px) {
-    #footer .social-box .row .col {
-        margin: 0;
-    }
-    #footer .link-box:nth-last-child(1) {
-        display: none;
-    }
-
-    .page-footer .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #footer .footer-logo {
-        /*order: 3;*/
-    }
-
-    .about-page .page-footer .footer-copyright .row {
-        margin: 0;
-        align-items: center;
-        display: block;
-    }
-
-    #footer .link-box:nth-last-child(1) {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 767px) {
-
-    #footer .social-box .row .col {
-        margin: 0;
-        margin-bottom: 10px;
-    }
-
-
-    #footer, .patients-page #footer {
-        padding-top: 20px;
-    }
-
-    #footer .social-box .container {
-        width: 90%;
-    }
-
-    #footer .social-box ul li {
-        width: 100%;
-        text-align: left;
-    }
-
-    #footer .link-box:nth-child(1),
-    #footer .link-box:nth-child(2),
-    #footer .link-box:nth-child(3) {
-        /*width: 33%;*/
-    }
-
-    #footer .link-box:nth-child(4),
-    #footer .link-box:nth-child(5) {
-        /*width: 33%;*/
-        clear: both;
-        margin: 0;
-    }
-
-    .page-footer .footer-copyright {
-        margin-top: 20px;
-    }
-
-    .page-footer .footer-copyright .copyright-links {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 599px) {
-    #footer .social-box ul li a i {
-        font-size: 18px;
-    }
-
-    .page-footer .footer-heading h5 {
-        font-size: 10px;
-        line-height: 24px;
-    }
-
-    #footer .link-box ul li a {
-        font-size: 11px;
-        line-height: 32px;
-    }
-
-    #footer .footer-logo .logo {
-        width: 115px;
-        padding: 10px 0;
-    }
-
-    #specialists-box.doctors-visit {
-        padding: 50px 0 50px;
-    }
-
-    #footer {
-        padding: 40px 0 0;
-    }
-
-    #footer .social-box .container {
-        width: 100%;
-    }
-
-    .page-footer .footer-copyright .copyright-links {
-        display: none;
-    }
-
-    #footer .social-box ul li a {
-        height: 45px;
-        line-height: 45px;
-    }
-
-    #footer .social-box ul li {
-        width: 100%;
-        text-align: center;
-    }
-
-    .page-footer .footer-copyright .copyright-box p {
-        font-size: 10px;
-        line-height: 13px;
-    }
-
-    .page-footer .footer-copyright {
-        padding: 15px 0;
-        background: #f5f5f5 !important;
-    }
-    #footer .social-box {
-        margin-bottom: 35px;
-        padding-bottom: 5px;
-    }
-
-    #footer .link-box:nth-child(1),
-    #footer .link-box:nth-child(2),
-    #footer .link-box:nth-child(3) {
-        width: 50%;
-        margin: 0;
-    }
-
-
-    .page-footer .footer-copyright .footer-logo .brand-logo {
-        width: 115px;
-    }
-
-    .page-footer .footer-copyright ul li {
-        margin-bottom: 10px;
-    }
-
-    .policy-page #footer {
-        margin-top: 40px;
-    }
-}
-
-
-/* response start */
-@media screen and (max-width: 1499px) {
-    .about-page #footer .social-box {
-        margin-bottom: 55px;
-    }
-    #footer {
-        padding: 50px 0 0;
-    }
-
-    .page-footer .footer-heading {
-        margin-bottom: 40px;
-    }
-
-    #footer .link-box ul {
-        margin-top: 10px;
-    }
-
-    #footer .link-box ul li a {
-        line-height: 38px;
-    }
-
-    .page-footer .footer-copyright {
-        padding: 15px 0;
-    }
-    .about-page #footer {
-        margin-top: 40px;
-    }
-
-    .about-page #footer .social-box {
-        margin-bottom: 55px;
-    }
-}
-
-@media (max-width: 1199px) {
-    .page-footer .footer-copyright ul li a {
-        margin-right: 20px;
-    }
-
-    .about-page #footer {
-        margin-top: 0;
-    }
-
-}
-
-@media (max-width: 991px) {
-    #footer .social-box .row .col {
-        margin: 0;
-    }
-    .page-footer .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #footer .footer-logo {
-        order: 3;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .about-page .page-footer .footer-copyright {
-        margin-top: 20px;
-    }
-
-    .about-page #footer .link-box:nth-child(4), .about-page #footer .link-box:nth-child(5) {
-        /*width: 33%;*/
-        clear: both;
-        margin: 0;
-    }
-
-    .about-page #footer .link-box:nth-child(1), .about-page #footer .link-box:nth-child(2), .about-page #footer .link-box:nth-child(3) {
-        /*width: 33%;*/
-    }
-
-    .about-page #footer .social-box ul li {
-        width: 100%;
-        text-align: left;
-    }
-
-    #footer .social-box .row .col {
-        margin: 0;
-        margin-bottom: 10px;
-    }
-
-    .about-page #footer .social-box .container {
-        width: 90%;
-    }
-
-    .about-page #footer {
-        padding-top: 20px;
-    }
-}
-
-@media screen and (max-width: 599px) {
-    .page-footer .footer-copyright .footer-logo .brand-logo {
-        width: 115px;
-    }
-
-    .about-page #footer .link-box:nth-child(1), .about-page #footer .link-box:nth-child(2), .about-page #footer .link-box:nth-child(3) {
-        width: 50%;
-        margin: 0;
-    }
-
-    .about-page #footer .social-box {
-        margin-bottom: 35px;
-        padding-bottom: 5px;
-    }
-
-    .about-page #footer .social-box ul li a i {
-        font-size: 18px;
-    }
-
-    #footer .social-box ul li a {
-        height: 45px;
-        line-height: 45px;
-    }
-
-    #footer .social-box ul li {
-        width: 100%;
-        text-align: left;
-    }
-
-    #footer .social-box .container {
-        width: 100%;
-    }
-    .page-footer .footer-heading h5 {
-        font-size: 10px;
-        line-height: 24px;
-    }
-
-    h5, .h5 {
-        font-size: 11px;
-    }
-
-    #footer .link-box ul li a {
-        font-size: 11px;
-        line-height: 32px;
-    }
-
-    #footer .footer-logo .logo {
-        width: 115px;
-        padding: 10px 0;
-    }
-
-    #specialists-box.doctors-visit {
-        padding: 50px 0 50px;
-    }
-
-    #footer {
-        padding: 40px 0 0;
-    }
-
-    #footer .social-box .container {
-        width: 100%;
-    }
-
-    .page-footer .footer-copyright .copyright-links {
-        display: none;
-    }
-
-    #footer .social-box ul li a {
-        height: 45px;
-        line-height: 45px;
-    }
-
-    .page-footer .footer-copyright .copyright-box p {
-        font-size: 10px;
-        line-height: 13px;
-    }
-
-    .page-footer .footer-copyright {
-        padding: 15px 0;
-        background: #f5f5f5 !important;
-    }
-}
-
-.img-flag {
+.footer_lan_flag_img{
     height: 20px;
     width: auto;
     margin-right: 4px;
-    margin-bottom: -6px;
+    margin-bottom: 0px;
+}
+.footer_lang_outer_div{
+    display: flex;
+}
+.footer_lang_outer_div a{
+    /* font-size: 16px; */
+    /* line-height: 22px; */
+    color: rgba(0, 0, 0, 0.56);
+    margin-right: 5px;
+    text-decoration: none;
+}
+.footer_lang_outer_div a:hover{
+    color: #00cfb5;
+}
+.footer_lang_divider{
+    /* border-left: 1px solid #000; */
+    margin-right: 5px;
+    color: rgba(0, 0, 0, 0.56);
+    /* height: 20px;
+    position: relative;
+    bottom: -3px; */
 }

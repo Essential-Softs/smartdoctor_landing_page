@@ -188,7 +188,15 @@ section {
 #main_navbar .navbar-toggler:focus{
     box-shadow: none;
 }
-
+.translate-middle-badge {
+    transform: translate(-50%,15%)!important;
+    font-size: 10px;
+    background-color: #83f3e7;
+    padding: 2px 3px!important;
+    padding-top: 0;
+    border-radius: 4px;
+    color: #000;
+}
 
 /* Hero Banner CSS */
 .hero {

@@ -860,3 +860,8 @@ table tr td{
     color: #FFFFFF;
     padding: 10px 30px;
 }
+
+
+.text-black{
+    color: #000000!important;
+}

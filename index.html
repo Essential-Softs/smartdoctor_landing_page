@@ -275,8 +275,8 @@
                                             <div class="accordion-item border-0">
                                                 <div class="accordion-header m-0 checkCollapse" id="section_1">
                                                     <button class="accordion-button border-0 p-0" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                        aria-expanded="false" aria-controls="collapseOne">
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne_2"
+                                                        aria-expanded="false" aria-controls="collapseOne_2">
                                                         <div class=" justify-content-between w-100 normal"
                                                             id="section_1_normal">
                                                             <div class="feature_list_accordian_heading_text">
@@ -347,7 +347,7 @@
                                                         </div>
                                                     </button>
                                                 </div>
-                                                <div id="collapseOne" class="accordion-collapse collapse"
+                                                <div id="collapseOne_2" class="accordion-collapse collapse"
                                                     aria-labelledby="section_1" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body p-0">
                                                         <div class="">
@@ -4870,15 +4870,15 @@
             if ($(this).find('.accordion-button').hasClass('collapsed')) {
                 $('.plan').addClass('d-none');
                 $('.normal').removeClass('d-none');
-                $('#section_1_plan').removeClass('d-none');
-                $('#section_1_normal').addClass('d-none');
+                $('#section_1_plan').addClass('d-none');
+                $('#section_1_normal').removeClass('d-none');
             }
             else {
                 $('.accordion-button').attr('aria-expanded', 'true');
                 $('.plan').addClass('d-none');
                 $('.normal').removeClass('d-none');
-                $('#section_1_plan').addClass('d-none');
-                $('#section_1_normal').removeClass('d-none');
+                $('#section_1_plan').removeClass('d-none');
+                $('#section_1_normal').addClass('d-none');
             }
         });
 

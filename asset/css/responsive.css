@@ -59,6 +59,9 @@
     .package_normal{
         height: 830px;
     }
+    #main_navbar .nav-item{
+        margin-left: 0px;
+    }
 
 
 }
